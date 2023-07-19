@@ -1,0 +1,93 @@
+body {
+   color: rgb(226, 226, 240);
+   background-color: black;
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0px;
+}
+
+header,
+footer {
+   color: rgb(102, 102, 114);
+   background-color: white;
+   text-align: center;
+   width: 100%;
+   height: 40px;
+   margin: 0;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+}
+
+nav {
+   display: flex;
+   justify-content: flex-end;
+   height: 100%;
+   align-items: center;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+nav a,
+nav form {
+   margin-right: 20px;
+}
+
+nav button,
+nav input[type="submit"] {
+   border: none;
+   outline: none;
+   background: none;
+   padding: 0;
+   margin: 0;
+   cursor: pointer;
+   /* Ajoutez d'autres styles personnalisés selon vos besoins */
+}
+
+
+nav button:hover,
+nav input[type="submit"]:hover {
+   text-decoration: underline;
+}
+
+.table {
+   border-collapse: collapse;
+   width: 75%;
+   text-align: center;
+   margin: 20px auto 20px auto;
+}
+
+.td,
+.th {
+   border: 1px solid white;
+   padding: 10px 0 10px 0;
+}
+
+h1,
+.message {
+   text-align: center;
+}
+
+.form {
+   text-align: center;
+   padding-top: 20px;
+}
+
+.formDesc {
+   margin-left: 3%;
+}
+
+.formButton {
+   margin-left: 3%;
+   width: 6%;
+}
+
+.nameNav {
+   padding-right: 30px;
+}
